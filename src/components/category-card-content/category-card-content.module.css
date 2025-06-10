@@ -1,0 +1,58 @@
+.categoryCardContent {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--shadow--natural);
+  padding: 1.25rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.categoryCardContent[open] {
+  box-shadow: var(--shadow--natural)
+}
+
+.categoryLabel {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.categoryLabel::before {
+  content: '▼';
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.categoryCardContent[open] .categoryLabel::before {
+  transform: rotate(180deg);
+}
+
+.productDetails {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: var(--spacing--50);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.productIcon {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.productDescription {
+    margin-right: 0;
+    padding-right: 0;
+}

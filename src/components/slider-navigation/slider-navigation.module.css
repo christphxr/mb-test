@@ -1,0 +1,26 @@
+.sliderNavigation {
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    align-items: center;
+}
+
+.control {
+  background-color: var(--color--vivid-cyan-blue);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow--natural)
+}
+
+.label {
+    padding: 0 26px;
+}

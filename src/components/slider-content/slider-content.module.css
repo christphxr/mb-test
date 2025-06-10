@@ -1,0 +1,10 @@
+.sliderContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.sliderItem {
+    cursor: pointer;
+}

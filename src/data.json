@@ -1,0 +1,58 @@
+{
+  "investing": {
+    "label": "Investing",
+    "products": [
+      {
+        "id": "cash-isa",
+        "name": "Cash ISA",
+        "description": "A tax-free savings account that allows you to save and invest up to a certain limit each year.",
+        "icon": "cash_isa"
+      },
+      {
+        "id": "lifetime-isa",
+        "name": "Lifetime ISA",
+        "description": "A government-backed savings account that helps you save for your first home or retirement.",
+        "icon": "lifetime_isa"
+      }
+    ]
+  },
+  "saving": {
+    "label": "Saving",
+    "products": [
+      {
+        "id": "32-day-notice-account",
+        "name": "32 Day Notice Account",
+        "description": "Earn interest on your savings with a 32-day notice period for withdrawals.",
+        "icon": "32_day_notice"
+      },
+      {
+        "id": "95-day-notice-account",
+        "name": "95 Day Notice Account",
+        "description": "Earn higher interest with a 95-day notice period for withdrawals.",
+        "icon": "95_day_notice"
+      }
+    ]
+  },
+  "home-buying": {
+    "label": "Home Buying",
+    "products": [
+      {
+        "id": "lifetime-isa",
+        "name": "Lifetime ISA",
+        "description": "A government-backed savings account that helps you save for your first home or retirement.",
+        "icon": "lifetime_isa"
+      }
+    ]
+  },
+  "retirement": {
+    "label": "Retirement",
+    "products": [
+      {
+        "id": "personal-pension",
+        "name": "Personal Pension",
+        "description": "A long-term savings plan to help you prepare for retirement.",
+        "icon": "personal_pension"
+      }
+    ]
+  }
+}
