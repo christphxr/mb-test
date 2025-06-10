@@ -19,3 +19,4 @@ Category data is available at `/api/categories` and is stubbed in `src/data.json
 - [ ] Complete tests for homepage
 - [ ] Make slider work better for mobile
 - [ ] Nicer slider transitions
+- [ ] Align styles with css variables
